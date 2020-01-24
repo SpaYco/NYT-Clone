@@ -4,6 +4,7 @@
 }
 html {
     font-size: 100%;
+    height: 500%;
 }
 #nav {
 	padding-left: 20px;
@@ -76,11 +77,11 @@ html {
 	top: 20%;
 }
 
-main {
+/* main {
     margin-top: 50px;
     width: 70%;
     margin-left: 15%;
-}
+} */
 
 #title {
 	font: nyt-cheltenham;
@@ -115,6 +116,7 @@ figcaption > p{
     color: #888888;
 }
 article{
+    display: block;
     margin-top: 75px;
     margin-left: 25%;
     margin-right: 25%;
@@ -171,4 +173,19 @@ article{
     font-size: 20px;
     line-height: 30px;
     width: 100%;
+    display: block;
+    position: static;
+}
+
+.ad{
+    width: 100vw ;
+    background-color: #f7f7f7;
+    color: #cccccc;
+    padding-bottom: 200px;
+    margin: 0;
+    text-align: center;
+    position: block;
+    left: 0;
+    float: left;
+    position: static;
 }
