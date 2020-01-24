@@ -204,3 +204,12 @@ article{
     color: rgb(50, 104, 145);
     font-family: nyt-franklin;
 }
+
+.space-image{
+    background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png") no-repeat center center;
+    background-size: cover;
+height: 570PX;
+margin-left: 20%;
+margin-right: 20%;
+
+}
