@@ -77,11 +77,11 @@ html {
 	top: 20%;
 }
 
-/* main {
+figure {
     margin-top: 50px;
     width: 70%;
     margin-left: 15%;
-} */
+}
 
 #title {
 	font: nyt-cheltenham;
@@ -177,15 +177,30 @@ article{
     position: static;
 }
 
-.ad{
-    width: 100vw ;
+.ad {
+    width: 100% ;
     background-color: #f7f7f7;
     color: #cccccc;
     padding-bottom: 200px;
     margin: 0;
     text-align: center;
-    position: block;
-    left: 0;
-    float: left;
-    position: static;
+    margin-top: 25px;
+}
+.sign-up-please > p{
+    text-align: center;
+    font-family: nyt-franklin;
+    font-weight: 700;
+    font-size: 15px;
+    color: #333;
+}
+.sign-up-please > hr {
+    width: 55px;
+    margin-left: calc(50% - 27.5px);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sign-up-please a {
+    text-decoration: none;
+    color: rgb(50, 104, 145);
+    font-family: nyt-franklin;
 }
