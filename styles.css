@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+html {
+    font-size: 100%;
+}
 #nav {
 	padding-left: 20px;
 	padding-right: 20px;
@@ -111,10 +114,61 @@ figcaption > p{
     font-size: 12px;
     color: #888888;
 }
+article{
+    margin-top: 75px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#social-container {
+    height: 40px;
+}
 
-.circle-icons{
+.circle-icons {
     border-radius: 50%;
+    height: 27px;
+    width: 27px;
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    display: inline;
+    vertical-align: middle;
+}
+.circle-icons > svg {
+    width: 15px;
+    height: 15px;
+}
+#date {
+    float: left;
+    font-size: 13px;
+    display: inline;
+    vertical-align: middle;
+}
+#social {
+    float: right;
+    display: inline;
+    vertical-align: middle;
+}
+#bubble {
+    width: 36px;
     height: 25px;
-    width: 25px;
-    background-color: grey;
+    border: none;
+    display: inline;
+    vertical-align: middle;
+}
+#bookmark {
+    background-color: white;
+    border: none;
+    width: 16px;
+    height: 25px;
+    display: inline;
+    vertical-align: middle;
+}
+.sub-title {
+    font-size: 15px;
+    line-height: 16.4px;
+}
+.article-p {
+    clear: both;
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
 }
