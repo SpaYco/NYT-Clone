@@ -117,8 +117,8 @@ figcaption > p{
 article{
     display: block;
     margin-top: 75px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 31%;
+    margin-right: 31%;
 }
 .social-container {
     height: 40px;
@@ -272,8 +272,8 @@ font-size: 20px;
 	border: 1px solid #326891;
 	background-color: #567b95;
 	color: white;
-	padding: 12px 25% 12px 25%;
-	font-size: 11px;
+	padding: 12px 15% 12px 15%;
+	font-size: 13px;
 	font-family: nyt-franklin, helvetica, arial, sans-serif;
 	line-height: 11px;
 	font-weight: 700;
@@ -281,8 +281,8 @@ font-size: 20px;
 }
 .bottom-social-container {
     height: 40px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 31%;
+    margin-right: 31%;
     margin-top: 25px;
 }
 .bottom-circle-icons {
@@ -292,4 +292,45 @@ font-size: 20px;
     display: inline-block;
     height: 25px;
     width: 25px;
+}
+
+.related-articles{
+    float: left;
+}
+
+.most-popular{
+    float: right;
+}
+
+.most-popular h3{
+    border-top: 1px solid grey;
+    padding: 20px 3% 20px 0;
+}
+.suggestions{
+margin-left: 10%;
+margin-right: 10%;
+
+}
+.suggestions a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.suggestions img{
+    width: 30%;
+    height: 150px;
+display: inline-block;
+}
+
+.via{
+    font-size: 11px;
+    font-weight: 400;
+    color: grey;
+}
+
+.bottom-titles{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: nyt-cheltenham;
 }
