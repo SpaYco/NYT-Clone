@@ -296,10 +296,12 @@ font-size: 20px;
 
 .related-articles{
     float: left;
+    width: 74%;
 }
 
 .most-popular{
     float: right;
+    width: 24%;
 }
 
 .most-popular h3{
@@ -311,26 +313,45 @@ margin-left: 10%;
 margin-right: 10%;
 
 }
-.suggestions a{
+.suggestions a {
     text-decoration: none;
     color: black;
-
 }
 
 .suggestions img{
-    width: 30%;
     height: 150px;
-display: inline-block;
+    width: 100%;
+    margin-top: 15px;
 }
 
 .via{
     font-size: 11px;
     font-weight: 400;
     color: grey;
+    float: right;
+    padding-right: 5px;
 }
 
-.bottom-titles{
+.bottom-titles {
     font-size: 18px;
     font-weight: 500;
-    font-family: nyt-cheltenham;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-weight: 400;
+    clear: both;
+}
+.related-articles a {
+    display: inline-block;
+    width: 32%;
+    vertical-align: top;
+}
+.related-articles hr {
+    margin-right: 3%;
+}
+.related-articles h4, .suggestions h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.related-articles h4 a:hover {
+    text-decoration: underline;
 }
