@@ -207,9 +207,35 @@ article{
 
 .space-image{
     background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png") no-repeat center center;
-    background-size: cover;
+    background-size: 100%;
 height: 570PX;
 margin-left: 20%;
 margin-right: 20%;
 
+
 }
+
+.space-image-title{
+    margin-left: 20%;
+margin-right: 20%;
+margin-top: 40px;
+}
+
+.space-image-title h2{
+    font-family: nyt-cheltenham;
+font-weight: 700;
+font-size: 20px;
+}
+
+.space-image p{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: nyt-chaplin;
+    word-spacing: 3px;
+    padding-top: 150px;
+    height: 130px;
+    width: 24.5%;
+}
+
