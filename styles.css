@@ -104,7 +104,6 @@ figcaption{
     font-size: 15px;
     font-weight: 500;
     color: #666666;
-    float: left;
     display: inline-block;
     margin-right: 30%;
 
@@ -121,14 +120,12 @@ article{
     margin-left: 25%;
     margin-right: 25%;
 }
-#social-container {
+.social-container {
     height: 40px;
 }
 
 .circle-icons {
     border-radius: 50%;
-    height: 27px;
-    width: 27px;
     background-color: #EEEEEE;
     border: 1px solid #EEEEEE;
     display: inline;
@@ -139,19 +136,15 @@ article{
     height: 15px;
 }
 #date {
-    float: left;
     font-size: 13px;
     display: inline;
     vertical-align: middle;
 }
-#social {
-    float: right;
-    display: inline;
+.social {
     vertical-align: middle;
+    float: right;
 }
 #bubble {
-    width: 36px;
-    height: 25px;
     border: none;
     display: inline;
     vertical-align: middle;
@@ -159,8 +152,6 @@ article{
 #bookmark {
     background-color: white;
     border: none;
-    width: 16px;
-    height: 25px;
     display: inline;
     vertical-align: middle;
 }
@@ -238,4 +229,67 @@ font-size: 20px;
     height: 130px;
     width: 24.5%;
 }
+#left-line {
+    margin-left: 20%;
+    width: 75px;
+}
+#underline-text {
+    margin-left: 20%;
+    font-size: 14px;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+}
+.video {
+    margin-top: 29px;
+}
+.small-gray {
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(102, 102, 102);
+    display: inline-block;
+}
+.xsmall-gray {
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(102, 102, 102);
+    display: inline-block;
+}
+.article-image {
+    width: 100%;
+    margin-top: 25px;
+}
+.xsmall-gray > a {
+    color: rgb(102, 102, 102);
+}
+.xsmall-gray > a:visited {
+    color: rgb(102, 102, 102);
+}
+.comments-btn {
 
+	border: 1px solid #326891;
+	background-color: #567b95;
+	color: white;
+	padding: 12px 25% 12px 25%;
+	font-size: 11px;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	line-height: 11px;
+	font-weight: 700;
+	border-radius: 3px;
+}
+.bottom-social-container {
+    height: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 25px;
+}
+.bottom-circle-icons {
+    border-radius: 50%;
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+}
