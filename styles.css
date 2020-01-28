@@ -21,6 +21,7 @@ html {
   border-bottom: solid 1px gray;
   display: block;
   background-color: white;
+  z-index: 20;
 }
 
 .nav-btn {
@@ -213,7 +214,9 @@ article {
   margin-top: 25px;
   clear: both;
 }
-
+.sign-up-please{
+  position: relative;
+}
 .sign-up-please > p {
   text-align: center;
   font-family: nyt-franklin;
@@ -517,5 +520,70 @@ ul, li {
  padding-bottom: 30px;
 
 
+}
+aside *{
+  vertical-align: middle;
+  z-index: -5;
+}
+aside{
+  right: 10%;
+  top: -100px;
+  width: 250px;
+  position: absolute;
+  z-index: -5;
+}
+
+aside img{
+  height: 75px;
+  float: left;
+  clear: both;
+  margin: 10px;
+}
+
+aside a{
+  text-decoration: none;
+  Font-family: nyt-cheltenham-small, georgia, "times new roman";
+
+  Font-size: 14px;
+  
+  Font-weight: 500;
+  
+  Line-height: 17px;
+  
+  color: rgb(51, 51, 51);
+
+
+}
+
+aside div{
+  clear: both;
+}
+
+aside h3{
+Font-family: nyt-franklin, helvetica, arial, sans-serif;
+
+Font-size: 14px;
+
+Font-weight: 700;
+
+Line-height: 14px;
+
+color: rgb(0, 0, 0);
+margin: 5px;
+}
+
+aside p{
+  margin: 10px;
+  text-decoration: none;
+  Font-family: nyt-cheltenham-small, georgia, "times new roman";
+
+  Font-size: 14px;
+  
+  Font-weight: 500;
+  
+  Line-height: 17px;
+  
+  color: rgb(51, 51, 51);
+  vertical-align: bottom;
 }
 
