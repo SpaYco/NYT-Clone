@@ -635,3 +635,35 @@ li {
   border-top: 1px solid gray;
   padding-bottom: 30px;
 }
+
+#coffee-everywhere-text {
+  margin-left: 1.6%;
+  margin-right: 0;
+}
+
+#not-enough-text {
+  margin-left: 0%;
+  margin-right: 1.6%;
+}
+
+#bottom-first-hr {
+  margin-left: 12%;
+  margin-right: 12%;
+  border: none;
+  height: 1px;
+  background-color: #333;
+  margin-bottom: 1px;
+}
+
+#bottom-second-hr {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.clear-div {
+  clear: both;
+}
+
+#footer-container {
+  margin-left: 5%;
+}
