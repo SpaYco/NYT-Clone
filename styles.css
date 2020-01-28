@@ -62,6 +62,48 @@ aside a {
   color: rgb(51, 51, 51);
 }
 
+#sticky-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-top: 1px solid black;
+  padding: 20px;
+  z-index: 5;
+}
+
+#sticky-footer *{
+  display: inline-block;
+  font-family: nyt-franklin, sans-serif;
+}
+
+#sticky-signup {
+  position: fixed;
+  width: 500px;
+  left: calc(50% - 225px);
+  bottom: 2%;
+}
+
+#expand {
+  position: fixed;
+  right: 11%;
+  bottom: 2%;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 0;
+}
+
+#expand * {
+  vertical-align: middle;
+}
+
+#expand button {
+  background: none;
+  border: none;
+  transform: rotate(-90deg);
+}
+
 .sign-up-please a {
   text-decoration: none;
   color: rgb(50, 104, 145);
