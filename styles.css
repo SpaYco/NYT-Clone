@@ -475,6 +475,7 @@ ul, li {
   font-family: nyt-franklin;
   font-size: 14px;
   margin-top: 10px;
+  vertical-align: bottom;
 }
 .footer h2 {
   color: rgb(51, 51, 51);
@@ -491,3 +492,30 @@ ul, li {
 .footer a:hover {
   text-decoration: underline;
 }
+
+.bottom-footer *{
+  display: inline-block;
+  Font-family: nyt-franklin, helvetica, arial, sans-serif;
+  Font-size: 11px;
+  Font-weight: 400;
+  Line-height: 11px;
+  color: rgb(102, 102, 102);
+  margin: 5px;
+  text-decoration: none;
+
+}
+
+.bottom-footer a:hover {
+  text-decoration: underline;
+}
+
+.bottom-footer{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  border-top: 1px solid gray;
+ padding-bottom: 30px;
+
+
+}
+
