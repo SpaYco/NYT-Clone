@@ -143,8 +143,19 @@ article {
   border-radius: 50%;
   background-color: #eee;
   border: 1px solid #eee;
-  display: inline;
+  display: inline-block;
   vertical-align: middle;
+  margin: 5px;
+  height: 25px;
+  width: 25px;
+}
+.circle-icons:hover , .circle-icons:focus {
+  animation-name: whiteFade;
+  animation-duration: 2s;
+}
+@keyframes whiteFade {
+  from {background-color: #eee;}
+  to {background-color: white;}
 }
 
 .circle-icons > svg {
@@ -167,6 +178,7 @@ article {
   border: none;
   display: inline;
   vertical-align: middle;
+  background: white;
 }
 
 #bookmark {
@@ -199,6 +211,7 @@ article {
   margin: 0;
   text-align: center;
   margin-top: 25px;
+  clear: both;
 }
 
 .sign-up-please > p {
@@ -245,13 +258,16 @@ article {
 .space-image p {
   display: inline-block;
   vertical-align: top;
-  font-size: 14px;
-  font-weight: 300;
-  font-family: nyt-chaplin;
+  font-size: 12px;
+  font-weight: 200;
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
   word-spacing: 3px;
+  padding: 0;
+  margin-left: 0.8%;
+  margin-right: 0.8%;
   padding-top: 150px;
   height: 130px;
-  width: 24.5%;
+  width: 23%;
 }
 
 #left-line {
@@ -378,6 +394,16 @@ article {
   color: grey;
   float: right;
   padding-right: 5px;
+  font-family: nyt-cheltenham-small, georgia, "times new roman";
+}
+
+.bottom-dates {
+  font-size: 11px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: gray;
+}
+.top-related-articles {
+  margin-bottom: 25px;
 }
 
 .bottom-titles {
@@ -385,6 +411,9 @@ article {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-weight: 400;
   clear: both;
+}
+.suggestions h3:hover {
+  color: gray;
 }
 
 .related-articles hr {
@@ -397,6 +426,13 @@ article {
   padding-bottom: 15px;
   font-size: 15px;
 }
+.suggestions h3 {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 1.125rem;
+  line-height: 22px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 .related-articles h4 a:hover {
   text-decoration: underline;
@@ -408,6 +444,8 @@ article {
 .footer-title {
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .footer-title > svg {
   float: left;
@@ -415,6 +453,13 @@ article {
 }
 .footer-title > a {
   float: right;
+  color: black;
+  font-family: nyt-franklin;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 11px;
+  color: rgb(86, 123, 149);
+  text-decoration: none;
 }
 .footer {
   display: inline-block;
@@ -428,4 +473,21 @@ ul, li {
   color: black;
   text-decoration: none;
   font-family: nyt-franklin;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.footer h2 {
+  color: rgb(51, 51, 51);
+}
+.footer svg {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+}
+.subscribe {
+  border-left: 1px solid gray;
+  padding-left: 15px;
+}
+.footer a:hover {
+  text-decoration: underline;
 }
