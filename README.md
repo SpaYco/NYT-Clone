@@ -13,7 +13,7 @@ This Is Clone of the new york times article.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Spayco/NYT-Clone/beta/index.html)
+[Live Demo Link](https://raw.githack.com/Spayco/NYT-Clone/master/index.html)
 
 
 ### Usage
