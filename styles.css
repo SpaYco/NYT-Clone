@@ -1,0 +1,669 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+  height: 500%;
+}
+
+aside * {
+  vertical-align: middle;
+}
+
+aside {
+  right: 10%;
+  top: -100px;
+  width: 250px;
+  position: absolute;
+  z-index: 1;
+}
+
+aside img {
+  height: 75px;
+  float: left;
+  clear: both;
+  margin: 10px;
+  z-index: 1;
+}
+
+aside div {
+  clear: both;
+}
+
+aside h3 {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  color: rgb(0, 0, 0);
+  margin: 5px;
+}
+
+aside p {
+  margin: 10px;
+  text-decoration: none;
+  font-family: nyt-cheltenham-small, georgia, "times new roman", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  color: rgb(51, 51, 51);
+  vertical-align: bottom;
+}
+
+aside a {
+  text-decoration: none;
+  font-family: nyt-cheltenham-small, georgia, "times new roman", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  color: rgb(51, 51, 51);
+}
+
+#sticky-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-top: 1px solid black;
+  padding: 20px;
+  z-index: 5;
+}
+
+.bottom-footer * {
+  display: inline-block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 11px;
+  color: rgb(102, 102, 102);
+  margin: 5px;
+  text-decoration: none;
+}
+
+.footer * {
+  color: black;
+  text-decoration: none;
+  font-family: nyt-franklin, sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+  vertical-align: bottom;
+}
+
+#sticky-footer * {
+  display: inline-block;
+  font-family: nyt-franklin, sans-serif;
+}
+
+#sticky-signup {
+  position: fixed;
+  width: 500px;
+  left: calc(50% - 225px);
+  bottom: 2%;
+}
+
+#expand {
+  position: fixed;
+  right: 11%;
+  bottom: 2%;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 0;
+}
+
+#expand * {
+  vertical-align: middle;
+}
+
+#expand button {
+  background: none;
+  border: none;
+  transform: rotate(-90deg);
+}
+
+.sign-up-please a {
+  text-decoration: none;
+  color: rgb(50, 104, 145);
+  font-family: nyt-franklin, sans-serif;
+}
+
+.footer-title > a {
+  float: right;
+  font-family: nyt-franklin, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 11px;
+  color: rgb(86, 123, 149);
+  text-decoration: none;
+}
+
+.xsmall-gray > a {
+  color: rgb(102, 102, 102);
+}
+
+.related-articles a {
+  display: inline-block;
+  width: 32%;
+  vertical-align: top;
+}
+
+.suggestions a {
+  text-decoration: none;
+  color: black;
+}
+
+.bottom-footer a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  display: inline-block;
+  vertical-align: top;
+  width: 15%;
+}
+
+#nav {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  border-bottom: solid 1px gray;
+  display: block;
+  background-color: white;
+  z-index: 20;
+}
+
+.nav-btn {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border: none;
+}
+
+.btn {
+  border: 1px solid #326891;
+  background-color: #567b95;
+  color: white;
+  padding: 11px 12px 8px 12px;
+  font-size: 11px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  line-height: 11px;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.black-link {
+  text-decoration: none;
+  color: black;
+}
+
+.black-link:hover {
+  text-decoration: underline;
+}
+
+.home-btn > svg {
+  height: 25px;
+}
+
+.home-btn {
+  display: inline-block;
+  position: fixed;
+  left: calc(50% - 92px);
+  right: 50%;
+  vertical-align: center;
+  margin-top: 8px;
+}
+
+.nav-element {
+  display: inline;
+}
+
+.left-nav-element {
+  float: left;
+}
+
+#nav > div > * {
+  margin: 5px;
+  margin-bottom: 1px;
+}
+
+.right-nav-element {
+  float: right;
+}
+
+.nav-link {
+  font-size: 14.25px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  vertical-align: middle;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+}
+
+figure {
+  margin-top: 50px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+#title {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-style: italic;
+  margin-left: 30%;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.title-img {
+  height: auto;
+  width: 100%;
+}
+
+figcaption {
+  text-align: left;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #666;
+  display: inline-block;
+  margin-right: 30%;
+}
+
+figcaption > p {
+  display: inline-block;
+  font-size: 12px;
+  color: #888;
+}
+
+article {
+  display: block;
+  margin-top: 75px;
+  margin-left: 31%;
+  margin-right: 31%;
+}
+
+.social-container {
+  height: 40px;
+}
+
+.circle-icons {
+  border-radius: 50%;
+  background-color: #eee;
+  border: 1px solid #eee;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px;
+  height: 25px;
+  width: 25px;
+}
+
+.circle-icons:hover,
+.circle-icons:focus {
+  animation-name: whiteFade;
+  animation-duration: 2s;
+}
+
+@keyframes whiteFade {
+  from { background-color: #eee; }
+  to { background-color: white; }
+}
+
+.circle-icons > svg {
+  width: 15px;
+  height: 15px;
+}
+
+#date {
+  font-size: 13px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.social {
+  vertical-align: middle;
+  float: right;
+}
+
+#bubble {
+  border: none;
+  display: inline;
+  vertical-align: middle;
+  background: white;
+}
+
+#bookmark {
+  background-color: white;
+  border: none;
+  display: inline;
+  vertical-align: middle;
+}
+
+.sub-title {
+  font-size: 15px;
+  line-height: 16.4px;
+}
+
+.article-p {
+  clear: both;
+  font-size: 20px;
+  line-height: 30px;
+  width: 100%;
+  display: block;
+  position: static;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+}
+
+.ad {
+  width: 100%;
+  background-color: #f7f7f7;
+  color: #ccc;
+  padding-bottom: 200px;
+  margin: 0;
+  text-align: center;
+  margin-top: 25px;
+  clear: both;
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+.sign-up-please {
+  position: relative;
+}
+
+.sign-up-please > p {
+  text-align: center;
+  font-family: nyt-franklin, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #333;
+}
+
+.sign-up-please > hr {
+  width: 55px;
+  margin-left: calc(50% - 27.5px);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.space-image {
+  background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png") no-repeat center center;
+  background-size: 100%;
+  height: 570px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.space-image-title {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 40px;
+}
+
+.space-image-title h2 {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.space-image p {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 12px;
+  font-weight: 200;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  word-spacing: 3px;
+  padding: 0;
+  margin-left: 0.8%;
+  margin-right: 0.8%;
+  padding-top: 150px;
+  height: 130px;
+  width: 23%;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+#left-line {
+  margin-left: 20%;
+  width: 75px;
+}
+
+#underline-text {
+  margin-left: 20%;
+  font-size: 14px;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+}
+
+.video {
+  margin-top: 29px;
+}
+
+.small-gray {
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(102, 102, 102);
+  display: inline-block;
+}
+
+.xsmall-gray {
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(102, 102, 102);
+  display: inline-block;
+}
+
+.article-image {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.xsmall-gray > a:visited {
+  color: rgb(102, 102, 102);
+}
+
+.comments-btn {
+  border: 1px solid #326891;
+  background-color: #567b95;
+  color: white;
+  padding: 12px 15% 12px 15%;
+  font-size: 13px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  line-height: 11px;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.bottom-social-container {
+  height: 40px;
+  margin-left: 31%;
+  margin-right: 31%;
+  margin-top: 25px;
+}
+
+.bottom-circle-icons {
+  border-radius: 50%;
+  background-color: #eee;
+  border: 1px solid #eee;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+}
+
+.related-articles {
+  float: left;
+  width: 74%;
+}
+
+.most-popular {
+  float: right;
+  width: 24%;
+}
+
+.most-popular h2 {
+  font-size: 16px / 22px (1.375);
+  font-weight: 700;
+}
+
+.most-popular h3 {
+  border-top: 1px solid grey;
+  padding: 20px 3% 20px 0;
+  font-size: 18.72px / normal;
+  font-weight: 500;
+}
+
+.suggestions {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.suggestions img {
+  height: 150px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.via {
+  font-size: 11px;
+  font-weight: 400;
+  color: grey;
+  float: right;
+  padding-right: 5px;
+  font-family: nyt-cheltenham-small, georgia, "times new roman", sans-serif;
+}
+
+.bottom-dates {
+  font-size: 11px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: gray;
+}
+
+.top-related-articles {
+  margin-bottom: 25px;
+}
+
+.bottom-titles {
+  font-size: 18px;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 400;
+  clear: both;
+}
+
+.suggestions h3 {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 1.125rem;
+  line-height: 22px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.suggestions h3:hover {
+  color: gray;
+}
+
+.related-articles hr {
+  margin-right: 3%;
+}
+
+.related-articles h4,
+.suggestions h2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
+}
+
+.related-articles h4 a:hover {
+  text-decoration: underline;
+}
+
+.footer-options {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.footer-title {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer-title > svg {
+  float: left;
+  height: 25px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.footer h2 {
+  color: rgb(51, 51, 51);
+}
+
+.footer svg {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+}
+
+.subscribe {
+  border-left: 1px solid gray;
+  padding-left: 15px;
+}
+
+.bottom-footer {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  border-top: 1px solid gray;
+  padding-bottom: 30px;
+}
+
+#coffee-everywhere-text {
+  margin-left: 1.6%;
+  margin-right: 0;
+}
+
+#not-enough-text {
+  margin-left: 0%;
+  margin-right: 1.6%;
+}
+
+#bottom-first-hr {
+  margin-left: 12%;
+  margin-right: 12%;
+  border: none;
+  height: 1px;
+  background-color: #333;
+  margin-bottom: 1px;
+}
+
+#bottom-second-hr {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.clear-div {
+  clear: both;
+}
+
+#footer-container {
+  margin-left: 5%;
+}
