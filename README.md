@@ -34,7 +34,7 @@ This Is Clone of the new york times article.
 
 - Github: [@kotoku-code](https://github.com/kotoku-code)
 - Twitter: [@kennedykotoku](https://twitter.com/kennedykotoku)
-- Linkedin: [Kotoku Kennedy](www.linkedin.com/in/kotoku-kennedy-5b04a9128)
+- Linkedin: [Kotoku Kennedy](https://www.linkedin.com/in/kotoku-kennedy-5b04a9128)
 
 ## 🤝 Contributing
 
