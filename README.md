@@ -30,7 +30,7 @@ This Is Clone of the new york times article.
 - Twitter: [@iSpaYco](https://twitter.com/iSpaYco)
 - Linkedin: [Aziz Mejri](https://www.linkedin.com/in/spayco/)
 
-👤 **Supersebek**
+👤 **Kotoku Kennedy**
 
 - Github: [@kotoku-code](https://github.com/kotoku-code)
 - Twitter: [@kennedykotoku](https://twitter.com/kennedykotoku)
